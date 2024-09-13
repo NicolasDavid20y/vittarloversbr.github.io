@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VittarLovers - Queen of Drag Queen Mundial</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #ff007f, #ffcc00);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+        .bio, .fan-art, .events {
+            margin-bottom: 50px;
+        }
+        .bio p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .latest-releases img, .fan-art img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .contact-form {
+            background-color: #222;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #ff007f;
+            color: white;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #ffcc00;
+        }
+        footer {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        footer p {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>VittarLovers</h1>
+        <nav>
+            <a href="#bio">Sobre Pabllo</a>
+            <a href="#latest-releases">Lançamentos</a>
+            <a href="#fan-art">Fan Art</a>
+            <a href="#events">Eventos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section id="bio" class="bio">
+        <h2>Sobre Pabllo Vittar</h2>
+        <p>Pabllo Vittar é uma força revolucionária na música pop brasileira e global. Reconhecida por sua performance icônica, voz poderosa, e engajamento com a comunidade LGBTQ+, ela redefiniu o que significa ser uma estrela no cenário drag mundial.</p>
+    </section>
+
+    <section id="latest-releases" class="latest-releases">
+        <h2>Últimos Lançamentos</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Último lançamento de Pabllo Vittar">
+        <p>Confira o último hit da Pabllo, que está dominando as paradas!</p>
+    </section>
+
+    <section id="fan-art" class="fan-art">
+        <h2>Fan Art</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Arte dos fãs">
+        <p>Os fãs da Pabllo estão sempre criando arte incrível. Veja algumas das melhores criações aqui.</p>
+    </section>
+
+    <section id="events" class="events">
+        <h2>Eventos e Shows</h2>
+        <p>Acompanhe a agenda de shows e eventos da Pabllo Vittar. Não perca a chance de vê-la ao vivo!</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <form action="#" class="contact-form">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 VittarLovers. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
